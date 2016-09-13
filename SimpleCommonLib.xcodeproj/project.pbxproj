@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74FE866E1D0510A100C8B1A5 /* SimpleCommonLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74FE866D1D0510A100C8B1A5 /* SimpleCommonLib.h */; };
+		74FE86701D0510A100C8B1A5 /* SimpleCommonLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE866F1D0510A100C8B1A5 /* SimpleCommonLib.m */; };
+		74FE86791D0510C300C8B1A5 /* UtilsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE86781D0510C300C8B1A5 /* UtilsHelper.m */; };
+		74FE867C1D05139C00C8B1A5 /* AlertViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE867B1D05139C00C8B1A5 /* AlertViewUtils.m */; };
+		74FE86811D05167D00C8B1A5 /* LocationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE86801D05167D00C8B1A5 /* LocationUtils.m */; };
+		74FE86841D0516A000C8B1A5 /* ImageViewPickerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE86831D0516A000C8B1A5 /* ImageViewPickerUtils.m */; };
+		74FE86881D0516B000C8B1A5 /* ManageDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE86871D0516B000C8B1A5 /* ManageDB.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		74FE868C1D0516CB00C8B1A5 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE868B1D0516CB00C8B1A5 /* BaseView.m */; };
+		74FE868F1D0516E800C8B1A5 /* ActionSheetUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE868E1D0516E800C8B1A5 /* ActionSheetUtils.m */; };
+		74FE86951D0516F500C8B1A5 /* PhoneCallActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE86921D0516F500C8B1A5 /* PhoneCallActionSheet.m */; };
+		74FE86961D0516F500C8B1A5 /* PhoneCallUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE86941D0516F500C8B1A5 /* PhoneCallUtils.m */; };
+		74FE86981D051C7600C8B1A5 /* PhoneCallActionSheet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74FE86911D0516F500C8B1A5 /* PhoneCallActionSheet.h */; };
+		74FE86991D051C7600C8B1A5 /* PhoneCallUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74FE86931D0516F500C8B1A5 /* PhoneCallUtils.h */; };
+		74FE869A1D051C7600C8B1A5 /* BaseView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74FE868A1D0516CB00C8B1A5 /* BaseView.h */; };
+		74FE869B1D051C7600C8B1A5 /* ManageDB.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74FE86861D0516B000C8B1A5 /* ManageDB.h */; };
+		74FE869C1D051C7600C8B1A5 /* CommonMacro.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74FE867E1D0513FA00C8B1A5 /* CommonMacro.h */; };
+		74FE869D1D051C7600C8B1A5 /* ImageViewPickerUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74FE86821D0516A000C8B1A5 /* ImageViewPickerUtils.h */; };
+		74FE869E1D051C7600C8B1A5 /* LocationUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74FE867F1D05167D00C8B1A5 /* LocationUtils.h */; };
+		74FE869F1D051C7600C8B1A5 /* ActionSheetUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74FE868D1D0516E800C8B1A5 /* ActionSheetUtils.h */; };
+		74FE86A01D051C7600C8B1A5 /* AlertViewUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74FE867A1D05139C00C8B1A5 /* AlertViewUtils.h */; };
+		74FE86A11D051C7600C8B1A5 /* UtilsHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74FE86771D0510C300C8B1A5 /* UtilsHelper.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		74FE86681D0510A000C8B1A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				74FE86981D051C7600C8B1A5 /* PhoneCallActionSheet.h in CopyFiles */,
+				74FE86991D051C7600C8B1A5 /* PhoneCallUtils.h in CopyFiles */,
+				74FE869A1D051C7600C8B1A5 /* BaseView.h in CopyFiles */,
+				74FE869B1D051C7600C8B1A5 /* ManageDB.h in CopyFiles */,
+				74FE869C1D051C7600C8B1A5 /* CommonMacro.h in CopyFiles */,
+				74FE869D1D051C7600C8B1A5 /* ImageViewPickerUtils.h in CopyFiles */,
+				74FE869E1D051C7600C8B1A5 /* LocationUtils.h in CopyFiles */,
+				74FE869F1D051C7600C8B1A5 /* ActionSheetUtils.h in CopyFiles */,
+				74FE86A01D051C7600C8B1A5 /* AlertViewUtils.h in CopyFiles */,
+				74FE86A11D051C7600C8B1A5 /* UtilsHelper.h in CopyFiles */,
+				74FE866E1D0510A100C8B1A5 /* SimpleCommonLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		74FE866A1D0510A000C8B1A5 /* libSimpleCommonLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimpleCommonLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FE866D1D0510A100C8B1A5 /* SimpleCommonLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleCommonLib.h; sourceTree = "<group>"; };
+		74FE866F1D0510A100C8B1A5 /* SimpleCommonLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCommonLib.m; sourceTree = "<group>"; };
+		74FE86771D0510C300C8B1A5 /* UtilsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsHelper.h; sourceTree = "<group>"; };
+		74FE86781D0510C300C8B1A5 /* UtilsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilsHelper.m; sourceTree = "<group>"; };
+		74FE867A1D05139C00C8B1A5 /* AlertViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewUtils.h; sourceTree = "<group>"; };
+		74FE867B1D05139C00C8B1A5 /* AlertViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewUtils.m; sourceTree = "<group>"; };
+		74FE867E1D0513FA00C8B1A5 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		74FE867F1D05167D00C8B1A5 /* LocationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationUtils.h; sourceTree = "<group>"; };
+		74FE86801D05167D00C8B1A5 /* LocationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationUtils.m; sourceTree = "<group>"; };
+		74FE86821D0516A000C8B1A5 /* ImageViewPickerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewPickerUtils.h; sourceTree = "<group>"; };
+		74FE86831D0516A000C8B1A5 /* ImageViewPickerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewPickerUtils.m; sourceTree = "<group>"; };
+		74FE86861D0516B000C8B1A5 /* ManageDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageDB.h; sourceTree = "<group>"; };
+		74FE86871D0516B000C8B1A5 /* ManageDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageDB.m; sourceTree = "<group>"; };
+		74FE868A1D0516CB00C8B1A5 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		74FE868B1D0516CB00C8B1A5 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		74FE868D1D0516E800C8B1A5 /* ActionSheetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetUtils.h; sourceTree = "<group>"; };
+		74FE868E1D0516E800C8B1A5 /* ActionSheetUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetUtils.m; sourceTree = "<group>"; };
+		74FE86911D0516F500C8B1A5 /* PhoneCallActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneCallActionSheet.h; sourceTree = "<group>"; };
+		74FE86921D0516F500C8B1A5 /* PhoneCallActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneCallActionSheet.m; sourceTree = "<group>"; };
+		74FE86931D0516F500C8B1A5 /* PhoneCallUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneCallUtils.h; sourceTree = "<group>"; };
+		74FE86941D0516F500C8B1A5 /* PhoneCallUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneCallUtils.m; sourceTree = "<group>"; };
+		74FE86971D05176800C8B1A5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74FE86671D0510A000C8B1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74FE86611D0510A000C8B1A5 = {
+			isa = PBXGroup;
+			children = (
+				74FE866C1D0510A100C8B1A5 /* SimpleCommonLib */,
+				74FE866B1D0510A000C8B1A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74FE866B1D0510A000C8B1A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74FE866A1D0510A000C8B1A5 /* libSimpleCommonLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74FE866C1D0510A100C8B1A5 /* SimpleCommonLib */ = {
+			isa = PBXGroup;
+			children = (
+				74FE86901D0516F500C8B1A5 /* PhoneCallUtils */,
+				74FE86891D0516CB00C8B1A5 /* BaseView */,
+				74FE86851D0516B000C8B1A5 /* DB */,
+				74FE867D1D0513FA00C8B1A5 /* Macros */,
+				74FE86761D0510C300C8B1A5 /* Utils */,
+				74FE866D1D0510A100C8B1A5 /* SimpleCommonLib.h */,
+				74FE866F1D0510A100C8B1A5 /* SimpleCommonLib.m */,
+				74FE86971D05176800C8B1A5 /* PrefixHeader.pch */,
+			);
+			path = SimpleCommonLib;
+			sourceTree = "<group>";
+		};
+		74FE86761D0510C300C8B1A5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74FE86821D0516A000C8B1A5 /* ImageViewPickerUtils.h */,
+				74FE86831D0516A000C8B1A5 /* ImageViewPickerUtils.m */,
+				74FE867F1D05167D00C8B1A5 /* LocationUtils.h */,
+				74FE86801D05167D00C8B1A5 /* LocationUtils.m */,
+				74FE868D1D0516E800C8B1A5 /* ActionSheetUtils.h */,
+				74FE868E1D0516E800C8B1A5 /* ActionSheetUtils.m */,
+				74FE867A1D05139C00C8B1A5 /* AlertViewUtils.h */,
+				74FE867B1D05139C00C8B1A5 /* AlertViewUtils.m */,
+				74FE86771D0510C300C8B1A5 /* UtilsHelper.h */,
+				74FE86781D0510C300C8B1A5 /* UtilsHelper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		74FE867D1D0513FA00C8B1A5 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				74FE867E1D0513FA00C8B1A5 /* CommonMacro.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		74FE86851D0516B000C8B1A5 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				74FE86861D0516B000C8B1A5 /* ManageDB.h */,
+				74FE86871D0516B000C8B1A5 /* ManageDB.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		74FE86891D0516CB00C8B1A5 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				74FE868A1D0516CB00C8B1A5 /* BaseView.h */,
+				74FE868B1D0516CB00C8B1A5 /* BaseView.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		74FE86901D0516F500C8B1A5 /* PhoneCallUtils */ = {
+			isa = PBXGroup;
+			children = (
+				74FE86911D0516F500C8B1A5 /* PhoneCallActionSheet.h */,
+				74FE86921D0516F500C8B1A5 /* PhoneCallActionSheet.m */,
+				74FE86931D0516F500C8B1A5 /* PhoneCallUtils.h */,
+				74FE86941D0516F500C8B1A5 /* PhoneCallUtils.m */,
+			);
+			path = PhoneCallUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74FE86691D0510A000C8B1A5 /* SimpleCommonLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74FE86731D0510A100C8B1A5 /* Build configuration list for PBXNativeTarget "SimpleCommonLib" */;
+			buildPhases = (
+				74FE86661D0510A000C8B1A5 /* Sources */,
+				74FE86671D0510A000C8B1A5 /* Frameworks */,
+				74FE86681D0510A000C8B1A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCommonLib;
+			productName = SimpleCommonLib;
+			productReference = 74FE866A1D0510A000C8B1A5 /* libSimpleCommonLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74FE86621D0510A000C8B1A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BBTech;
+				TargetAttributes = {
+					74FE86691D0510A000C8B1A5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 74FE86651D0510A000C8B1A5 /* Build configuration list for PBXProject "SimpleCommonLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74FE86611D0510A000C8B1A5;
+			productRefGroup = 74FE866B1D0510A000C8B1A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74FE86691D0510A000C8B1A5 /* SimpleCommonLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74FE86661D0510A000C8B1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FE86961D0516F500C8B1A5 /* PhoneCallUtils.m in Sources */,
+				74FE86881D0516B000C8B1A5 /* ManageDB.m in Sources */,
+				74FE86811D05167D00C8B1A5 /* LocationUtils.m in Sources */,
+				74FE868C1D0516CB00C8B1A5 /* BaseView.m in Sources */,
+				74FE86951D0516F500C8B1A5 /* PhoneCallActionSheet.m in Sources */,
+				74FE86701D0510A100C8B1A5 /* SimpleCommonLib.m in Sources */,
+				74FE867C1D05139C00C8B1A5 /* AlertViewUtils.m in Sources */,
+				74FE868F1D0516E800C8B1A5 /* ActionSheetUtils.m in Sources */,
+				74FE86791D0510C300C8B1A5 /* UtilsHelper.m in Sources */,
+				74FE86841D0516A000C8B1A5 /* ImageViewPickerUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		74FE86711D0510A100C8B1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74FE86721D0510A100C8B1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74FE86741D0510A100C8B1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = SimpleCommonLib/PrefixHeader.pch;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		74FE86751D0510A100C8B1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = SimpleCommonLib/PrefixHeader.pch;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74FE86651D0510A000C8B1A5 /* Build configuration list for PBXProject "SimpleCommonLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FE86711D0510A100C8B1A5 /* Debug */,
+				74FE86721D0510A100C8B1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74FE86731D0510A100C8B1A5 /* Build configuration list for PBXNativeTarget "SimpleCommonLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FE86741D0510A100C8B1A5 /* Debug */,
+				74FE86751D0510A100C8B1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74FE86621D0510A000C8B1A5 /* Project object */;
+}
