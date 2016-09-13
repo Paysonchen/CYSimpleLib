@@ -12,6 +12,15 @@
 
 #pragma mark- Color
 
+/**
+ *  rgb to UIColor
+ *
+ *  @param r red value
+ *  @param g green value
+ *  @param b blue value
+ *
+ *  @return UIColor
+ */
 #define RGB(r, g, b) RGBA(r, g, b, 1.0)
 #define RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 
